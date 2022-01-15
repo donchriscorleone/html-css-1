@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+#products {
+
+}
+
+.product {
+
+}
+
+a[href*="google"] {
+    color: orange;
+}
