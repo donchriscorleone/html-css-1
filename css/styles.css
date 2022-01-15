@@ -1,0 +1,33 @@
+article :first-child {
+    font-size: 140%;
+    font-style: italic;
+}
+
+article :first-of-type {
+    /* first occurence for element of different types */
+    color: orange;
+}
+
+article p:first-of-type {
+    font-size: 120%;
+}
+
+article p:last-of-type {
+    font-weight: bold;
+}
+
+a:visited, a:link {
+    color: dodgerblue;
+}
+
+a:hover, a:focus {
+    color: pink;
+}
+
+ul li:nth-child(odd) {
+    color: deeppink;
+}
+
+ul li:nth-child(even) {
+    color: gold;
+}
