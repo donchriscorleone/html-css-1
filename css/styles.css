@@ -1,0 +1,21 @@
+h1 {
+    color: dodgerblue;
+}
+
+.highlight {
+    color: deeppink;
+}
+
+#products {
+    color: green;
+}
+
+h1#products {
+    color: red;
+}
+
+.highlight#products {
+    color: blue;
+}
+
+/* id selector > class and attr selector > element selector */
