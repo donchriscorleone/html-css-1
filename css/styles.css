@@ -1,0 +1,14 @@
+#products > p {
+    /* only the first child */
+    color: orange;
+}
+
+#products + p {
+    /* select the first sibling */
+    color: red;
+}
+
+#products ~ p {
+    /* all general siblings of products */
+    font-weight: bold;
+}
