@@ -1,0 +1,12 @@
+p {
+    color: dodgerblue;
+    border: 2px solid red;
+}
+
+strong {
+    /* to stop inheritance */
+    color: initial;
+
+    /* to inherit border */
+    border: inherit;
+}
