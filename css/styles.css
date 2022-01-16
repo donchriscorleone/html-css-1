@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-size: 4.209rem;
+    margin: 1.1rem 0 .85rem;
+}
+
+h2 {
+    font-size: 3.157rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+p {
+    font-size: 1.777rem;
+    margin: 3rem 0;
+    line-height: 1.8;
+}
+
+main {
+    max-width: 1140px;
+    margin: 2rem auto;
+    padding: .5rem 2rem;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    margin: 2.1rem auto 3.5rem;
+}
+
+h2 {
+    margin: .95rem 0 5rem;
+}
+
+article {
+    margin: 3rem 0 5rem;
+}
+
+article h3 {
+    margin-bottom: 2rem;
+}
+
+article ul {
+    margin-left: 5rem;
+}
+
+article ul li {
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 650px) {
+    html {
+        font-size: 80%;
+    }
+
+    img {
+        height: 250px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    html {
+        font-size: 100%;
+    }
+
+    img {
+        height: 400px;
+    }
+}
