@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+}
+
+main {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.hero {
+    background-image: url(/images/galaxy_medium/galaxy_medium@w_1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+    word-spacing: 1.2rem;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.9rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: .8rem;
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 8px;
+    }
+
+    .hero {
+        background-image: url(/images/galaxy_medium/galaxy_medium@w_320.jpg);
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 1227px) {
+    html {
+        font-size: 10px;
+    }
+
+    .hero {
+        background-image: url(/images/galaxy_medium/galaxy_medium@w_924.jpg);
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (min-width: 1228px) and (max-width: 1440px) {
+    html {
+        font-size: 18px;
+    }
+
+    .hero {
+        background-image: url(/images/galaxy_medium/galaxy_medium@w_1388.jpg);
+    }
+}
